@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.clr {
+  clear: both;
+}
+
+#header {
+  background-color: orange;
+  text-align: center;
+  margin: 5px 0 5px 0;
+  height: 100px;
+  padding: 20px;
+  border: 1px black solid;
+}
+#side {
+  width: 30%;
+  height: 400px;
+  float: left;
+  background: green;
+  padding: 20px;
+  border: 1px black solid;
+}
+#main {
+  float: right;
+  width: 69%;
+  height: 400px;
+  background: purple;
+  padding: 20px;
+  border: 1px black solid;
+}
+#footer {
+  background-color: blue;
+  text-align: center;
+  margin: 5px 0 5px 0;
+  height: 100px;
+  padding: 20px;
+  border: 1px black solid;
+}
+
+.container {
+  width: calc(100% - 500px);
+  margin: 0 auto;
+}
