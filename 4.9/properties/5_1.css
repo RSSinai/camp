@@ -1,10 +1,10 @@
 *
 {
-    width: fit-content
+    width: 80%;
 }
 #first {
     border:1px solid red;
-    border-radius: 20%;
+    border-radius: 90px;
     font-size: larger;
 }
 #second {
