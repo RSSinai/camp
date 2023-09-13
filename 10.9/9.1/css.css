@@ -1,0 +1,10 @@
+p.text {
+  background-color: azure;
+  padding: 15px;
+}
+
+@media screen and (min-width: 700px) {
+  p.text {
+    font-size: 25px;
+  }
+}

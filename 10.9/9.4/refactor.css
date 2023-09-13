@@ -1,0 +1,70 @@
+* {
+    width: 100%;
+    font-family: "DM Sans", sans-serif;
+  }
+  
+  h4 {
+    color: blue;
+  }
+  body {
+    background-color: lightgoldenrodyellow;
+    margin: 0 auto;
+  }
+  
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    height: 40%;
+    width: 40%;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .card_container {
+    padding: 2px 16px;
+  }
+
+  /* adding navbar */
+
+  nav {
+  display: flex; /* 1 */
+  justify-content: space-between; /* 2 */
+  padding: 1rem 2rem; /* 3 */
+  background: #cfd8dc; /* 4 */
+}
+
+nav ul {
+  display: flex; /* 5 */
+  list-style: none; /* 6 */
+}
+
+nav li {
+  padding-left: 1rem; /* 7! */
+}
+
+.body_container
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sticky {
+	background-color: lightgray;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+nav ul{
+  display: block;
+}
+*{
+  font-size: small;
+}
+}

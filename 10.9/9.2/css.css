@@ -1,0 +1,17 @@
+.item {
+  background-color: grey;
+  float: left;
+  width: 25%;
+
+}
+
+.container {
+  width: 100%;
+  margin: auto 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .item{
+    float: none;
+  }
+}
