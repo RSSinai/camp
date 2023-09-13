@@ -1,0 +1,80 @@
+*
+{
+  color: white;
+}
+
+/* this is for flat icons */
+
+.flat#register {
+  border: none;
+  background: #4b91f5;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 0px;
+}
+.flat#submit {
+  border: none;
+  background: #fecc58;
+  font-size: 15px;
+  padding: 7px;
+  border-radius: 0px;
+}
+
+
+/* this is for flat ghost icons */
+
+.flatghost#register {
+  border: 1px solid #ff0040;
+  background: transparent;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 0px;
+}
+.flatghost#submit {
+  border: 1px solid #d900ff;
+  background: transparent;
+  font-size: 15px;
+  padding: 7px;
+  border-radius: 0px;
+}
+
+
+/* this is for flat round icons  */
+
+.flatround#register {
+  border: none;
+  background: #3bb260;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.flatround#submit {
+  border: none;
+  background: #fb5570
+  ;
+  font-size: 15px;
+  padding: 7px;
+  border-radius: 20px;
+}
+
+.roundgohst#register {
+  border: 1px solid #ffd900;
+  background: transparent;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 20px;;
+}
+.roundgohst#submit {
+  border: 1px solid #00ddff;
+  background: transparent;
+  font-size: 15px;
+  padding: 7px;
+  border-radius: 20px;;
+}
+.container {
+  margin: 0 auto;
+  width: calc(100% - 600px);
+}
+body{
+  background-color: #305171;
+}
